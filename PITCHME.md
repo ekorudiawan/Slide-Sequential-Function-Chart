@@ -21,7 +21,13 @@
 
 ### Simbol Pada SFC
 
+![Initial Step](assets/image/initial_step.png)
+
 1. **Steps** 
+
+![Initial Step](assets/image/initial_step.png)
+
+2. fsdfdsf
     * Initial Step 
 
     ![Initial Step](assets/image/initial_step.png)
