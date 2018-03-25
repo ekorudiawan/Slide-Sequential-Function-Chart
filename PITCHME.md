@@ -16,7 +16,6 @@
 ---
 
 ### Simbol Pada SFC
-
 1. **Steps** 
     * Initial Step
     * Ordinary Step
