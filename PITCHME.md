@@ -10,9 +10,9 @@
 ---
 
 ### Structure Utama SFC
-#### 1. **Steps** merupakan urutan dari sebuah proses yang akan dijalankan.
-#### 2. **Transitions** berisi sebuah kondisi/syarat yang harus terpenuhi agar sebuah step dapat diproses. 
-#### 3. **Actions** merupakan sebuah step yang berisi aksi yang akan dilakukan pada sebuah proses.
+1. **Steps** merupakan urutan dari sebuah proses yang akan dijalankan.
+2. **Transitions** berisi sebuah kondisi/syarat yang harus terpenuhi agar sebuah step dapat diproses. 
+3. **Actions** merupakan sebuah step yang berisi aksi yang akan dilakukan pada sebuah proses.
 ---
 
 ### Simbol Pada SFC
@@ -30,7 +30,7 @@
 5. **Jump**
 ---
 
-#### Steps
+### Steps
 1. Initial Step : Proses yang akan dieksekusi pertama kali ketika program dijalankan.
 
 ![Initial Step](assets/image/initial_step.png)
@@ -40,13 +40,13 @@
 ![Ordinary Step](assets/image/ordinary_step.png)
 ---
 
-#### Transitions
+### Transitions
 Transition merupakan sebuah syarat yang harus terpenuhi jika step ingin dieksekusi
 
 ![Transition](assets/image/transition.png)
 ---
 
-#### Alternative Sequence
+### Alternative Sequence
 1. Alternative Divergence : Kondisi masuk ke dalam sebuah percabangan yang digunakan untuk memilih dua atau lebih step yang akan dieksekusi
 
 ![Alternative Divergence](assets/image/alternative_divergence.png)
@@ -56,7 +56,7 @@ Transition merupakan sebuah syarat yang harus terpenuhi jika step ingin diekseku
 ![Alternative Convergence](assets/image/alternative_convergence.png)
 ---
 
-#### Parallel Sequence
+### Parallel Sequence
 1. Parallel Divergence : Kondisi masuk ke dalam sebuah percabangan untuk mengeksekusi dua atau lebih step secara bersamaan/parallel
 
 ![Parallel Divergence](assets/image/parallel_divergence.png)
