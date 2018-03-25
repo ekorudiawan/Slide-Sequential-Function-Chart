@@ -15,6 +15,10 @@
 3. **Actions** merupakan sebuah step yang berisi aksi yang akan dilakukan pada sebuah proses.
 ---
 
+### Contoh Program SFC
+![Program SFC](assets/image/program_sfc.png)
+---
+
 ### Simbol Pada SFC
 1. **Steps** 
     * Initial Step
@@ -55,6 +59,10 @@ Transition merupakan sebuah syarat yang harus terpenuhi jika step ingin diekseku
 ![Alternative Convergence](assets/image/alternative_convergence.png)
 ---
 
+### Alternative Sequence
+![Program Alternative Brach](assets/image/program_alternative_branch.png)
+---
+
 ### Parallel Sequence
 1. Parallel Divergence : Kondisi masuk ke dalam sebuah percabangan untuk mengeksekusi dua atau lebih step secara bersamaan/parallel
 
@@ -65,19 +73,26 @@ Transition merupakan sebuah syarat yang harus terpenuhi jika step ingin diekseku
 ![Parallel Convergence](assets/image/parallel_convergence.png)
 ---
 
+### Parallel Sequence
+![Program Parallel Brach](assets/image/program_parallel_branch.png)
+---
+
 ### Steps 
+Setiap step secara otomatis akan meng-*generate* sebuah variabel yang disebut dengan **Step Address**
 * Step Addresses
-    * Step_Name.X
-    * Step_name.T
+    * Step_Name.X : Kondisi aktif atau tidaknya sebuah Step.
+    * Step_name.T : Bernilai waktu berapa lama Step telah aktif
 ---
 
 ### Transitions
-* Covergence, keluar dari perbacangan
-* Divergence, masuk dalam percabangan
+Transition selalu bernilai akhir **TRUE/FALSE**
+* Divergence, masuk ke dalam sebuah percabangan
+* Covergence, keluar dari sebuah percabangan
 ---
 
 ### Actions
-* Action Types
+![Action](assets/image/program_action.png)
+* Action Types : Bagaimana dan kapan aksi tersebut dieksekusi
 * Action Control
 * Indicator Variable
 ---
