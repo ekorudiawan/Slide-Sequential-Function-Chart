@@ -2,6 +2,7 @@
 
 ## Sequential Function Chart
 ##### Eko Rudiawan @ 2018
+![asd](assets/image/initial_step.png)
 ---
 
 ### Pendahuluan
@@ -20,6 +21,7 @@
 ---
 
 ### Simbol Pada SFC
+
 1. **Steps** 
     * Initial Step 
 
