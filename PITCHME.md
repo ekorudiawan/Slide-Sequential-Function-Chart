@@ -50,11 +50,11 @@ Transition merupakan sebuah syarat yang harus terpenuhi jika step ingin diekseku
 ---
 
 ### Alternative Sequence
-* Alternative Divergence : Kondisi masuk ke dalam salah satu percabangan.
+* Alternative Divergence : Kondisi masuk ke percabangan.
 
 ![Alternative Divergence](assets/image/alternative_divergence.png)
 
-* Alternative Convergence : Kondisi keluar dari sebuah percabangan.
+* Alternative Convergence : Kondisi keluar dari percabangan.
 
 ![Alternative Convergence](assets/image/alternative_convergence.png)
 ---
@@ -64,11 +64,11 @@ Transition merupakan sebuah syarat yang harus terpenuhi jika step ingin diekseku
 ---
 
 ### Parallel Sequence
-* Parallel Divergence : Kondisi masuk ke percabangan secara parallel.
+* Parallel Divergence : Masuk ke percabangan secara parallel.
 
 ![Parallel Divergence](assets/image/parallel_divergence.png)
 
-* Parallel Convergence : Kondisi keluar dari percabangan parallel.
+* Parallel Convergence : Keluar dari percabangan parallel.
 
 ![Parallel Convergence](assets/image/parallel_convergence.png)
 ---
@@ -78,7 +78,9 @@ Transition merupakan sebuah syarat yang harus terpenuhi jika step ingin diekseku
 ---
 
 ### Steps 
+
 Setiap step secara otomatis akan meng-*generate* sebuah variabel yang disebut dengan **Step Address**
+
 * Step Addresses
     * Step_Name.X : Kondisi aktif atau tidaknya sebuah Step.
     * Step_name.T : Bernilai waktu berapa lama Step telah aktif
