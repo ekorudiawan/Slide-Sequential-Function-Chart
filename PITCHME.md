@@ -3,12 +3,18 @@
 ---
 
 ### Pendahuluan
-* SFC merupakan bahasa pemrograman yang didefinisikan pada standar IEC 61131-3.
-* SFC merupakan bahasa pemrograman berbasis graphic yang digunakan untuk merepresentasikan sequence/urutan proses dalam sebuah program.
-* SFC disebut juga dengan Grafcet yang mengacu pada standar French National Standar.
-* SFC didesain untuk membuat program terstruktur terutama untuk sistem yang beroperasi secara sequential dan paralel.
----
+<span style="font-size:0.6em; color:gray">* SFC merupakan bahasa pemrograman yang didefinisikan pada standar IEC 61131-3.</span>
+<span style="font-size:0.6em; color:gray">* SFC merupakan bahasa pemrograman berbasis graphic yang digunakan untuk merepresentasikan sequence/urutan proses dalam sebuah program. </span>
 
+<span style="font-size:0.6em; color:gray">* SFC disebut juga dengan Grafcet yang mengacu pada standar French National Standar. </span>
+
+<span style="font-size:0.6em; color:gray">* SFC didesain untuk membuat program terstruktur </span>
+
+<span style="font-size:0.6em; color:gray">* SFC didesain untuk membuat program terstruktur terutama untuk sistem yang beroperasi secara sequential dan paralel. </span>
+
+
+
+---
 ### Structure Utama SFC
 1. **Steps** merupakan urutan dari sebuah proses yang akan dijalankan.
 2. **Transitions** berisi sebuah kondisi/syarat yang harus terpenuhi agar sebuah step dapat diproses. 
