@@ -10,14 +10,13 @@
 * SFC merupakan bahasa pemrograman berbasis graphic yang digunakan untuk merepresentasikan sekuen/urutan dalam sebuah program.
 * SFC disebut juga dengan Grafcet yang mengacu pada standar French National Standar.
 * SFC didesain untuk membuat program terstruktur terutama untuk sistem yang beroperasi secara sequential dan paralel.
-
+![asd](assets/image/initial_step.png)
 ---
 
 ### Structure Utama SFC
 1. **Steps** merupakan urutan dari sebuah proses yang akan dijalankan
 2. **Transitions** berisi sebuah kondisi/syarat yang harus terpenuhi untuk melakukan perpindahan antar step. 
 3. **Actions** merupakan sebuah step yang berisi instruksi yang akan dilakukan pada sebuah proses.
-
 ---
 
 ### Simbol Pada SFC
