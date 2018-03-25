@@ -1,120 +1,94 @@
 # White
 
-### A GitPitch Presentation Template
-![as](assets/image/initial_step.png)
+## Sequential Function Chart
+##### Eko Rudiawan @ 2018
 ---
 
-## Tips!
-
-<br>
-
-@fa[arrows gp-tip](Press F to go Fullscreen)
-
-@fa[microphone gp-tip](Press S for Speaker Notes)
-
----
-
-## Template Features
-
-- Code Presenting |
-- Repo Source, Static Blocks, GIST |
-- Custom CSS Styling |
-- Slideshow Background Image |
-- Slide-specific Background Images |
-- Custom Logo, TOC, and Footnotes |
-
----?code=sample/go/server.go&lang=golang&title=Golang File
-
-@[1,3-6](Present code found within any repo source file.)
-@[8-18](Without ever leaving your slideshow.)
-@[19-28](Using GitPitch code-presenting with (optional) annotations.)
+### Pendahuluan
+* SFC merupakan bahasa pemrograman yang didefinisikan pada standar IEC 61131-3.
+* SFC merupakan bahasa pemrograman berbasis graphic yang digunakan untuk merepresentasikan sekuen/urutan dalam sebuah program.
+* SFC disebut juga dengan Grafcet yang mengacu pada standar French National Standar.
+* SFC didesain untuk membuat program terstruktur terutama untuk sistem yang beroperasi secara sequential dan paralel.
 
 ---
 
-@title[JavaScript Block]
-
-<p><span class="slide-title">JavaScript Block</span></p>
-
-```javascript
-// Include http module.
-var http = require("http");
-
-// Create the server. Function passed as parameter
-// is called on every request made.
-http.createServer(function (request, response) {
-  // Attach listener on end event.  This event is
-  // called when client sent, awaiting response.
-  request.on("end", function () {
-    // Write headers to the response.
-    // HTTP 200 status, Content-Type text/plain.
-    response.writeHead(200, {
-      'Content-Type': 'text/plain'
-    });
-    // Send data and end response.
-    response.end('Hello HTTP!');
-  });
-
-// Listen on the 8080 port.
-}).listen(8080);
-```
-
-@[1,2](You can present code inlined within your slide markdown too.)
-@[9-17](Displayed using code-syntax highlighting just like your IDE.)
-@[19-20](Again, all of this without ever leaving your slideshow.)
-
----?gist=onetapbeyond/494e0fecaf0d6a2aa2acadfb8eb9d6e8&lang=scala&title=Scala GIST
-
-@[23](You can even present code found within any GitHub GIST.)
-@[41-53](GIST source code is beautifully rendered on any slide.)
-@[57-62](And code-presenting works seamlessly for GIST too, both online and offline.)
+### Structure Utama SFC
+1. **Steps** merupakan urutan dari sebuah proses yang akan dijalankan
+2. **Transitions** berisi sebuah kondisi/syarat yang harus terpenuhi untuk melakukan perpindahan antar step. 
+3. **Actions** merupakan sebuah step yang berisi instruksi yang akan dilakukan pada sebuah proses.
 
 ---
 
-## Template Help
+### Simbol Pada SFC
+1. **Steps** 
+    * Initial Step 
 
-- [Code Presenting](https://github.com/gitpitch/gitpitch/wiki/Code-Presenting)
-  + [Repo Source](https://github.com/gitpitch/gitpitch/wiki/Code-Delimiter-Slides), [Static Blocks](https://github.com/gitpitch/gitpitch/wiki/Code-Slides), [GIST](https://github.com/gitpitch/gitpitch/wiki/GIST-Slides) 
-- [Custom CSS Styling](https://github.com/gitpitch/gitpitch/wiki/Slideshow-Custom-CSS)
-- [Slideshow Background Image](https://github.com/gitpitch/gitpitch/wiki/Background-Setting)
-- [Slide-specific Background Images](https://github.com/gitpitch/gitpitch/wiki/Image-Slides#background)
-- [Custom Logo](https://github.com/gitpitch/gitpitch/wiki/Logo-Setting) [TOC](https://github.com/gitpitch/gitpitch/wiki/Table-of-Contents) [Footnotes](https://github.com/gitpitch/gitpitch/wiki/Footnote-Setting)
+        ![Initial Step](assets/image/initial_step.png)
+
+    * Ordinary Step
+
+        ![Ordinary Step](assets/image/ordinary_step.png)
+
+2. **Transitions** 
+
+    ![Transition](assets/image/transition.png)
+
+3. **Paralel Sequences**
+    * Parallel Divergence
+
+        ![Parallel Divergence](assets/image/parallel_divergence.png)
+
+    * Parallel Convergence
+
+        ![Parallel Convergence](assets/image/parallel_convergence.png)
+
+4. **Alternative Sequences**
+    * Alternative Convergence
+
+        ![Alternative Convergence](assets/image/alternative_divergence.png)
+
+    * Alternative Divergence
+
+        ![Alternative Divergence](assets/image/alternative_convergence.png)
+
+5. **Jump**
+
+    ![Jump](assets/image/jump.png)
+
+---
+### Steps 
+* Step Addresses
+    * Step_Name.X
+    * Step_name.T
 
 ---
 
-## Go GitPitch Pro!
-
-<br>
-<div class="left">
-    <i class="fa fa-user-secret fa-5x" aria-hidden="true"> </i><br>
-    <a href="https://gitpitch.com/pro-features" class="pro-link">
-    More details here.</a>
-</div>
-<div class="right">
-    <ul>
-        <li>Private Repos</li>
-        <li>Private URLs</li>
-        <li>Password-Protection</li>
-        <li>Image Opacity</li>
-        <li>SVG Image Support</li>
-    </ul>
-</div>
+### Transitions
+* Covergence, keluar dari perbacangan
+* Divergence, masuk dalam percabangan
 
 ---
 
-### Questions?
+### Actions
+* Action Types
+* Action Control
+* Indicator Variable
 
-<br>
+---
 
-@fa[twitter gp-contact](@gitpitch)
+#### SFC action types
+|Qualifier|Type|
+|---------|----|
+|N|Non-stored|
+|S|Set (Stored)|
+|R|Reset|
+|P|Pulse|
+|L|Time Limited|
+|D|Time Delayed|
+|SD|Stored and time Delayed|
+|DS|Time Delayed and Stored|
+|SL|Stored and time Limited|
+|P1|Pulse—rising edge|
+|P0|Pulse—falling edge|
 
-@fa[github gp-contact](gitpitch)
-
-@fa[medium gp-contact](@gitpitch)
-
----?image=assets/image/gitpitch-audience.jpg&opacity=100
-
-@title[Download this Template!]
-
-### <span class="white">Get your presentation started!</span>
-### [Download this template @fa[external-link gp-download]](https://gitpitch.com/template/download/white)
-
+---
