@@ -34,11 +34,11 @@
 ---
 
 ### Steps
-1. Initial Step : Proses yang akan dieksekusi pertama kali ketika program dijalankan.
+* Initial Step : Proses yang akan dieksekusi pertama kali ketika program dijalankan.
 
 ![Initial Step](assets/image/initial_step.png)
 
-2. Ordinary Step : Proses lain yang akan dijalankan ketika sebuah kondisi transition telah terpenuhi.
+* Ordinary Step : Proses lain yang akan dijalankan ketika sebuah kondisi transition telah terpenuhi.
 
 ![Ordinary Step](assets/image/ordinary_step.png)
 ---
@@ -50,11 +50,11 @@ Transition merupakan sebuah syarat yang harus terpenuhi jika step ingin diekseku
 ---
 
 ### Alternative Sequence
-1. Alternative Divergence : Kondisi masuk ke dalam sebuah percabangan yang digunakan untuk memilih dua atau lebih step yang akan dieksekusi
+* Alternative Divergence : Kondisi masuk ke dalam salah satu percabangan.
 
 ![Alternative Divergence](assets/image/alternative_divergence.png)
 
-2. Alternative Convergence : : Kondisi keluar dari sebuah percabangan yang telah dieksekusi
+* Alternative Convergence : Kondisi keluar dari sebuah percabangan.
 
 ![Alternative Convergence](assets/image/alternative_convergence.png)
 ---
@@ -64,11 +64,11 @@ Transition merupakan sebuah syarat yang harus terpenuhi jika step ingin diekseku
 ---
 
 ### Parallel Sequence
-1. Parallel Divergence : Kondisi masuk ke dalam sebuah percabangan untuk mengeksekusi dua atau lebih step secara bersamaan/parallel
+* Parallel Divergence : Kondisi masuk ke percabangan secara parallel.
 
 ![Parallel Divergence](assets/image/parallel_divergence.png)
 
-2. Parallel Convergence : Kondisi keluar dari sebuah percabangan yang dieksekusi secara bersamaan/parallel
+* Parallel Convergence : Kondisi keluar dari percabangan parallel.
 
 ![Parallel Convergence](assets/image/parallel_convergence.png)
 ---
