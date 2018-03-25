@@ -8,7 +8,8 @@ theme : simple
 theme-override : assets/css/PITCHME.css
 # theme-override : assets/css/PITCHME.codemax.css
 highlight : atom-one-light
-logo : assets/image/logo.png
+logo : assets/image/polibatam.jpg
 transition : none
+layout : top-left
 published : true
 footnote : "GitPitch [ White ] Presentation Template"
