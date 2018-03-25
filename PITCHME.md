@@ -10,9 +10,9 @@
 ---
 
 ### Structure Utama SFC
-1. **Steps** merupakan urutan dari sebuah proses yang akan dijalankan.
-2. **Transitions** berisi sebuah kondisi/syarat yang harus terpenuhi agar sebuah step dapat diproses. 
-3. **Actions** merupakan sebuah step yang berisi aksi yang akan dilakukan pada sebuah proses.
+#### 1. **Steps** merupakan urutan dari sebuah proses yang akan dijalankan.
+#### 2. **Transitions** berisi sebuah kondisi/syarat yang harus terpenuhi agar sebuah step dapat diproses. 
+#### 3. **Actions** merupakan sebuah step yang berisi aksi yang akan dilakukan pada sebuah proses.
 ---
 
 ### Simbol Pada SFC
