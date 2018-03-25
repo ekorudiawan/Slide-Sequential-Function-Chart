@@ -20,11 +20,9 @@
 ---
 
 ### Simbol Pada SFC
-![Initial Step](assets/image/initial_step.png)
+
 1. **Steps** 
-    * Initial Step 
-
-
+    * Initial Step ![Initial Step](assets/image/initial_step.png)
 
     * Ordinary Step
 
