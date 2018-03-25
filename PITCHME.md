@@ -11,9 +11,9 @@
 ---
 
 ### Structure Utama SFC
-1. **Steps** merupakan urutan dari sebuah proses yang akan dijalankan.
-2. **Transitions** berisi sebuah kondisi/syarat yang harus terpenuhi agar sebuah step dapat diproses. 
-3. **Actions** merupakan sebuah step yang berisi aksi yang akan dilakukan pada sebuah proses.
+1. <span style="font-size:0.8em; ">**Steps** merupakan urutan dari sebuah proses yang akan dijalankan. </span>
+2. <span style="font-size:0.8em; ">**Transitions** berisi sebuah kondisi/syarat yang harus terpenuhi agar sebuah step dapat diproses. </span>
+3. <span style="font-size:0.8em; ">**Actions** merupakan sebuah step yang berisi aksi yang akan dilakukan pada sebuah proses. </span>
 ---
 
 ### Contoh Program SFC
