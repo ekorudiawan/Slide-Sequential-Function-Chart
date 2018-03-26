@@ -52,7 +52,7 @@
 ![Transition](assets/image/transition.png)
 ---
 
-### Alternative Sequence
+### Alternative Branch
 * <span style="font-size:0.8em; ">**Alternative Divergence** : Kondisi masuk ke percabangan. </span>
 
 ![Alternative Divergence](assets/image/alternative_divergence.png)
@@ -62,11 +62,11 @@
 ![Alternative Convergence](assets/image/alternative_convergence.png)
 ---
 
-### Alternative Sequence
+### Alternative Branch
 ![Program Alternative Brach](assets/image/program_alternative_branch.png)
 ---
 
-### Parallel Sequence
+### Parallel Branch
 * <span style="font-size:0.8em; ">**Parallel Divergence** : Masuk ke percabangan secara parallel. </span>
 
 ![Parallel Divergence](assets/image/parallel_divergence.png)
@@ -76,7 +76,7 @@
 ![Parallel Convergence](assets/image/parallel_convergence.png)
 ---
 
-### Parallel Sequence
+### Parallel Branch
 ![Program Parallel Brach](assets/image/program_parallel_branch.png)
 ---
 
