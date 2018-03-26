@@ -97,25 +97,11 @@
 
 ### Actions
 ![Action](assets/image/program_action.png)
-* <span style="font-size:0.8em; ">Action Types : Bagaimana dan kapan aksi tersebut dieksekusi. </span>
-* <span style="font-size:0.8em; ">Action Control. </span>
-* <span style="font-size:0.8em; ">Indicator Variable. </span>
+* <span style="font-size:0.5em; ">Action Types : Bagaimana dan kapan aksi tersebut dieksekusi. </span>
+* <span style="font-size:0.5em; ">Action Control. </span>
+* <span style="font-size:0.5em; ">Indicator Variable. </span>
 ---
 
 #### SFC action types
-<span style="font-size:0.8em; ">
-|Qualifier|Type|
-|---------|----|
-|N|Non-stored|
-|S|Set (Stored)|
-|R|Reset|
-|P|Pulse|
-|L|Time Limited|
-|D|Time Delayed|
-|SD|Stored and time Delayed|
-|DS|Time Delayed and Stored|
-|SL|Stored and time Limited|
-|P1|Pulse—rising edge|
-|P0|Pulse—falling edge|
-</span>
+![Table Action Types](assets/image/table_action_types.png)
 ---
