@@ -37,27 +37,27 @@
 ---
 
 ### Steps
-* <span style="font-size:0.8em; ">Initial Step : Proses yang akan dieksekusi pertama kali ketika program dijalankan. </span>
+* <span style="font-size:0.8em; ">**Initial Step** : Proses yang akan dieksekusi pertama kali ketika program dijalankan. </span>
 
 ![Initial Step](assets/image/initial_step.png)
 
-* <span style="font-size:0.8em; ">Ordinary Step : Proses lain yang akan dijalankan ketika sebuah kondisi transition telah terpenuhi. </span>
+* <span style="font-size:0.8em; ">**Ordinary Step** : Proses lain yang akan dijalankan ketika sebuah kondisi transition telah terpenuhi. </span>
 
 ![Ordinary Step](assets/image/ordinary_step.png)
 ---
 
 ### Transitions
-<span style="font-size:0.8em; ">Transition merupakan sebuah syarat yang harus terpenuhi jika step ingin dieksekusi </span>
+<span style="font-size:0.8em; ">**Transition** merupakan sebuah syarat yang harus terpenuhi jika step ingin dieksekusi </span>
 
 ![Transition](assets/image/transition.png)
 ---
 
 ### Alternative Sequence
-* <span style="font-size:0.8em; ">Alternative Divergence : Kondisi masuk ke percabangan. </span>
+* <span style="font-size:0.8em; ">**Alternative Divergence** : Kondisi masuk ke percabangan. </span>
 
 ![Alternative Divergence](assets/image/alternative_divergence.png)
 
-* <span style="font-size:0.8em; ">Alternative Convergence : Kondisi keluar dari percabangan. </span>
+* <span style="font-size:0.8em; ">**Alternative Convergence** : Kondisi keluar dari percabangan. </span>
 
 ![Alternative Convergence](assets/image/alternative_convergence.png)
 ---
@@ -67,11 +67,11 @@
 ---
 
 ### Parallel Sequence
-* <span style="font-size:0.8em; ">Parallel Divergence : Masuk ke percabangan secara parallel. </span>
+* <span style="font-size:0.8em; ">**Parallel Divergence** : Masuk ke percabangan secara parallel. </span>
 
 ![Parallel Divergence](assets/image/parallel_divergence.png)
 
-* <span style="font-size:0.8em; ">Parallel Convergence : Keluar dari percabangan parallel. </span>
+* <span style="font-size:0.8em; ">**Parallel Convergence** : Keluar dari percabangan parallel. </span>
 
 ![Parallel Convergence](assets/image/parallel_convergence.png)
 ---
@@ -84,22 +84,22 @@
 
 <span style="font-size:0.8em; ">Setiap step secara otomatis akan meng-*generate* sebuah variabel yang disebut dengan **Step Address** </span>
 
-* <span style="font-size:0.8em; ">Step Addresses</span>
-    * <span style="font-size:0.5em; ">Step_Name.X : Kondisi aktif atau tidaknya sebuah Step.</span>
-    * <span style="font-size:0.5em; ">Step_name.T : Bernilai waktu berapa lama Step telah aktif</span>
+* <span style="font-size:0.7em; ">**Step Addresses**</span>
+    * <span style="font-size:0.5em; ">**Step_Name.X** : Kondisi aktif atau tidaknya sebuah Step.</span>
+    * <span style="font-size:0.5em; ">**Step_Name.T** : Bernilai waktu berapa lama Step telah aktif</span>
 ---
 
 ### Transitions
-<span style="font-size:0.8em; ">Transition selalu bernilai akhir **TRUE/FALSE**</span>
-* <span style="font-size:0.5em; ">Divergence, masuk ke dalam sebuah percabangan</span>
-* <span style="font-size:0.5em; ">Covergence, keluar dari sebuah percabangan</span>
+<span style="font-size:0.8em; ">**Transition** selalu bernilai akhir **TRUE/FALSE**</span>
+* <span style="font-size:0.5em; ">**Divergence** : masuk ke dalam sebuah percabangan</span>
+* <span style="font-size:0.5em; ">**Covergence** : keluar dari sebuah percabangan</span>
 ---
 
 ### Actions
 ![Action](assets/image/program_action.png)
-* <span style="font-size:0.5em; ">Action Types : Bagaimana dan kapan aksi tersebut dieksekusi. </span>
-* <span style="font-size:0.5em; ">Action Control : Berisi variabel yang akan dikontrol</span>
-* <span style="font-size:0.5em; ">Indicator Variable : : Indikator variabel</span>
+* <span style="font-size:0.5em; ">**Action Types** : Bagaimana dan kapan aksi tersebut dieksekusi. </span>
+* <span style="font-size:0.5em; ">**Action Control** : Berisi variabel yang akan dikontrol</span>
+* <span style="font-size:0.5em; ">**Indicator Variable** : Variabel sebagai indikator bahwa action step telah dieksekusi</span>
 ---
 
 #### SFC action types
