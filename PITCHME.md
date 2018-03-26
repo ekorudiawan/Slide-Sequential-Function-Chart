@@ -85,8 +85,8 @@
 <span style="font-size:0.8em; ">Setiap step secara otomatis akan meng-*generate* sebuah variabel yang disebut dengan **Step Address** </span>
 
 * <span style="font-size:0.8em; ">Step Addresses</span>
-    * <span style="font-size:0.8em; ">Step_Name.X : Kondisi aktif atau tidaknya sebuah Step.</span>
-    * <span style="font-size:0.8em; ">Step_name.T : Bernilai waktu berapa lama Step telah aktif</span>
+    * <span style="font-size:0.5em; ">Step_Name.X : Kondisi aktif atau tidaknya sebuah Step.</span>
+    * <span style="font-size:0.5em; ">Step_name.T : Bernilai waktu berapa lama Step telah aktif</span>
 ---
 
 ### Transitions
@@ -97,12 +97,13 @@
 
 ### Actions
 ![Action](assets/image/program_action.png)
-* Action Types : Bagaimana dan kapan aksi tersebut dieksekusi
-* Action Control
-* Indicator Variable
+* <span style="font-size:0.8em; ">Action Types : Bagaimana dan kapan aksi tersebut dieksekusi. </span>
+* <span style="font-size:0.8em; ">Action Control. </span>
+* <span style="font-size:0.8em; ">Indicator Variable. </span>
 ---
 
 #### SFC action types
+<span style="font-size:0.8em; ">
 |Qualifier|Type|
 |---------|----|
 |N|Non-stored|
@@ -116,4 +117,5 @@
 |SL|Stored and time Limited|
 |P1|Pulse—rising edge|
 |P0|Pulse—falling edge|
+</span>
 ---
