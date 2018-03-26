@@ -91,8 +91,8 @@
 
 ### Transitions
 <span style="font-size:0.8em; ">Transition selalu bernilai akhir **TRUE/FALSE**</span>
-* <span style="font-size:0.8em; ">Divergence, masuk ke dalam sebuah percabangan</span>
-* <span style="font-size:0.8em; ">Covergence, keluar dari sebuah percabangan</span>
+* <span style="font-size:0.5em; ">Divergence, masuk ke dalam sebuah percabangan</span>
+* <span style="font-size:0.5em; ">Covergence, keluar dari sebuah percabangan</span>
 ---
 
 ### Actions
