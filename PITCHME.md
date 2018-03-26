@@ -2,7 +2,7 @@
 ##### Eko Rudiawan @ 2018
 ---
 
-### Pendahuluan
+### Sequential Function Chart
 * <span style="font-size:0.8em; ">SFC merupakan bahasa pemrograman yang didefinisikan pada standar IEC 61131-3.</span>
 * <span style="font-size:0.8em; ">SFC merupakan bahasa pemrograman berbasis graphic yang digunakan untuk merepresentasikan sequence/urutan proses dalam sebuah program. </span>
 * <span style="font-size:0.8em; ">SFC disebut juga dengan Grafcet yang mengacu pada standar French National Standar. </span>
