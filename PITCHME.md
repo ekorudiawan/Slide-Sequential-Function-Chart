@@ -26,10 +26,10 @@
     * <span style="font-size:0.5em; ">Initial Step </span>
     * <span style="font-size:0.5em; ">Ordinary Step </span>
 * <span style="font-size:0.8em; ">**Transitions** </span>
-* <span style="font-size:0.8em; ">**Alternative Sequences** </span>
+* <span style="font-size:0.8em; ">**Alternative Branch** </span>
     * <span style="font-size:0.5em; ">Alternative Convergence </span>
     * <span style="font-size:0.5em; ">Alternative Divergence </span>
-* <span style="font-size:0.8em; ">**Paralel Sequences** </span>
+* <span style="font-size:0.8em; ">**Paralel Branch** </span>
     * <span style="font-size:0.5em; ">Parallel Divergence </span>
     * <span style="font-size:0.5em; ">Parallel Convergence </span>
 * <span style="font-size:0.8em; ">**Jump** </span>
@@ -46,10 +46,41 @@
 ![Ordinary Step](assets/image/ordinary_step.png)
 ---
 
+### Steps 
+
+<span style="font-size:0.8em; ">Setiap step secara otomatis akan meng-*generate* sebuah variabel yang disebut dengan **Step Address** </span>
+
+* <span style="font-size:0.7em; ">**Step Addresses**</span>
+    * <span style="font-size:0.5em; ">**Step_Name.X** : Kondisi aktif atau tidaknya sebuah Step.</span>
+    * <span style="font-size:0.5em; ">**Step_Name.T** : Bernilai waktu berapa lama Step telah aktif</span>
+---
+
+### Actions 
+![Action](assets/image/program_action.png)
+* <span style="font-size:0.5em; ">**Action Types** : Bagaimana dan kapan aksi tersebut dieksekusi. </span>
+* <span style="font-size:0.5em; ">**Action Control** : Berisi variabel yang akan dikontrol</span>
+* <span style="font-size:0.5em; ">**Indicator Variable** : Variabel sebagai indikator bahwa action step telah dieksekusi</span>
+---
+
+#### SFC action types
+![Table Action Types](assets/image/table_action_types_2.png)
+---
+
+#### Actions
+![Table Action Types](assets/image/example_program_action.png)
+---
+
 ### Transitions
 <span style="font-size:0.8em; ">**Transition** merupakan sebuah syarat yang harus terpenuhi jika step ingin dieksekusi </span>
 
 ![Transition](assets/image/transition.png)
+---
+
+### Transitions
+* <span style="font-size:0.8em; ">**Transition** selalu bernilai akhir **TRUE/FALSE**</span>
+* <span style="font-size:0.8em; ">**Transition** dapat berupa sebuah variabel atau POU</span>
+* <span style="font-size:0.8em; ">**Divergence** : Transisi masuk ke dalam sebuah percabangan</span>
+* <span style="font-size:0.8em; ">**Covergence** : Transisi keluar dari sebuah percabangan</span>
 ---
 
 ### Alternative Branch
@@ -80,28 +111,8 @@
 ![Program Parallel Brach](assets/image/program_parallel_branch.png)
 ---
 
-### Steps 
+### SFC Diagram Control
+<span style="font-size:0.8em; ">**SFC Diagram Control** merupakan sebuah variabel yang dapat dikontrol atau diakses untuk memanipulasi eksekusi program pada SFC. </span>
 
-<span style="font-size:0.8em; ">Setiap step secara otomatis akan meng-*generate* sebuah variabel yang disebut dengan **Step Address** </span>
-
-* <span style="font-size:0.7em; ">**Step Addresses**</span>
-    * <span style="font-size:0.5em; ">**Step_Name.X** : Kondisi aktif atau tidaknya sebuah Step.</span>
-    * <span style="font-size:0.5em; ">**Step_Name.T** : Bernilai waktu berapa lama Step telah aktif</span>
----
-
-### Transitions
-<span style="font-size:0.8em; ">**Transition** selalu bernilai akhir **TRUE/FALSE**</span>
-* <span style="font-size:0.5em; ">**Divergence** : masuk ke dalam sebuah percabangan</span>
-* <span style="font-size:0.5em; ">**Covergence** : keluar dari sebuah percabangan</span>
----
-
-### Actions
-![Action](assets/image/program_action.png)
-* <span style="font-size:0.5em; ">**Action Types** : Bagaimana dan kapan aksi tersebut dieksekusi. </span>
-* <span style="font-size:0.5em; ">**Action Control** : Berisi variabel yang akan dikontrol</span>
-* <span style="font-size:0.5em; ">**Indicator Variable** : Variabel sebagai indikator bahwa action step telah dieksekusi</span>
----
-
-#### SFC action types
-![Table Action Types](assets/image/table_action_types.png)
+![SFC Diagram Control](assets/image/sfc_diagram_control.png)
 ---
