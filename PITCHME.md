@@ -10,7 +10,7 @@
 * <span style="font-size:0.8em; ">SFC didesain untuk membuat program terstruktur terutama untuk sistem yang beroperasi secara sequential dan paralel. </span>
 ---
 
-### Structure Utama SFC
+### Struktur Utama SFC
 * <span style="font-size:0.8em; ">**Steps** merupakan urutan dari sebuah proses yang akan dijalankan. </span>
 * <span style="font-size:0.8em; ">**Transitions** berisi sebuah kondisi/syarat yang harus terpenuhi agar sebuah step dapat diproses. </span>
 * <span style="font-size:0.8em; ">**Actions** merupakan sebuah step yang berisi aksi yang akan dilakukan pada sebuah proses. </span>
