@@ -21,43 +21,43 @@
 ---
 
 ### Simbol Pada SFC
-<span style="font-size:0.8em; ">
-1. **Steps** 
-    * Initial Step
-    * Ordinary Step
-2. **Transitions** 
-3. **Alternative Sequences**
-    * Alternative Convergence
-    * Alternative Divergence
-4. **Paralel Sequences**
-    * Parallel Divergence
-    * Parallel Convergence
-5. **Jump**
-</span>
+
+* <span style="font-size:0.8em; ">**Steps** </span>
+    * <span style="font-size:0.8em; ">Initial Step </span>
+    * <span style="font-size:0.8em; ">Ordinary Step </span>
+* <span style="font-size:0.8em; ">**Transitions** </span>
+* <span style="font-size:0.8em; ">**Alternative Sequences** </span>
+    * <span style="font-size:0.8em; ">Alternative Convergence </span>
+    * <span style="font-size:0.8em; ">Alternative Divergence </span>
+* <span style="font-size:0.8em; ">**Paralel Sequences** </span>
+    * <span style="font-size:0.8em; ">Parallel Divergence </span>
+    * <span style="font-size:0.8em; ">Parallel Convergence </span>
+* <span style="font-size:0.8em; ">**Jump** </span>
+
 ---
 
 ### Steps
-* Initial Step : Proses yang akan dieksekusi pertama kali ketika program dijalankan.
+* <span style="font-size:0.8em; ">Initial Step : Proses yang akan dieksekusi pertama kali ketika program dijalankan. </span>
 
 ![Initial Step](assets/image/initial_step.png)
 
-* Ordinary Step : Proses lain yang akan dijalankan ketika sebuah kondisi transition telah terpenuhi.
+* <span style="font-size:0.8em; ">Ordinary Step : Proses lain yang akan dijalankan ketika sebuah kondisi transition telah terpenuhi. </span>
 
 ![Ordinary Step](assets/image/ordinary_step.png)
 ---
 
 ### Transitions
-Transition merupakan sebuah syarat yang harus terpenuhi jika step ingin dieksekusi
+<span style="font-size:0.8em; ">Transition merupakan sebuah syarat yang harus terpenuhi jika step ingin dieksekusi </span>
 
 ![Transition](assets/image/transition.png)
 ---
 
 ### Alternative Sequence
-* Alternative Divergence : Kondisi masuk ke percabangan.
+* <span style="font-size:0.8em; ">Alternative Divergence : Kondisi masuk ke percabangan. </span>
 
 ![Alternative Divergence](assets/image/alternative_divergence.png)
 
-* Alternative Convergence : Kondisi keluar dari percabangan.
+* <span style="font-size:0.8em; ">Alternative Convergence : Kondisi keluar dari percabangan. </span>
 
 ![Alternative Convergence](assets/image/alternative_convergence.png)
 ---
@@ -67,11 +67,11 @@ Transition merupakan sebuah syarat yang harus terpenuhi jika step ingin diekseku
 ---
 
 ### Parallel Sequence
-* Parallel Divergence : Masuk ke percabangan secara parallel.
+* <span style="font-size:0.8em; ">Parallel Divergence : Masuk ke percabangan secara parallel. </span>
 
 ![Parallel Divergence](assets/image/parallel_divergence.png)
 
-* Parallel Convergence : Keluar dari percabangan parallel.
+* <span style="font-size:0.8em; ">Parallel Convergence : Keluar dari percabangan parallel. </span>
 
 ![Parallel Convergence](assets/image/parallel_convergence.png)
 ---
@@ -82,17 +82,17 @@ Transition merupakan sebuah syarat yang harus terpenuhi jika step ingin diekseku
 
 ### Steps 
 
-Setiap step secara otomatis akan meng-*generate* sebuah variabel yang disebut dengan **Step Address**
+<span style="font-size:0.8em; ">Setiap step secara otomatis akan meng-*generate* sebuah variabel yang disebut dengan **Step Address** </span>
 
-* Step Addresses
-    * Step_Name.X : Kondisi aktif atau tidaknya sebuah Step.
-    * Step_name.T : Bernilai waktu berapa lama Step telah aktif
+* <span style="font-size:0.8em; ">Step Addresses</span>
+    * <span style="font-size:0.8em; ">Step_Name.X : Kondisi aktif atau tidaknya sebuah Step.</span>
+    * <span style="font-size:0.8em; ">Step_name.T : Bernilai waktu berapa lama Step telah aktif</span>
 ---
 
 ### Transitions
-Transition selalu bernilai akhir **TRUE/FALSE**
-* Divergence, masuk ke dalam sebuah percabangan
-* Covergence, keluar dari sebuah percabangan
+<span style="font-size:0.8em; ">Transition selalu bernilai akhir **TRUE/FALSE**</span>
+* <span style="font-size:0.8em; ">Divergence, masuk ke dalam sebuah percabangan</span>
+* <span style="font-size:0.8em; ">Covergence, keluar dari sebuah percabangan</span>
 ---
 
 ### Actions
