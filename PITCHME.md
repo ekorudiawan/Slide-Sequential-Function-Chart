@@ -23,15 +23,15 @@
 ### Simbol Pada SFC
 
 * <span style="font-size:0.8em; ">**Steps** </span>
-    * <span style="font-size:0.7em; ">Initial Step </span>
-    * <span style="font-size:0.7em; ">Ordinary Step </span>
+    * <span style="font-size:0.5em; ">Initial Step </span>
+    * <span style="font-size:0.5em; ">Ordinary Step </span>
 * <span style="font-size:0.8em; ">**Transitions** </span>
 * <span style="font-size:0.8em; ">**Alternative Sequences** </span>
-    * <span style="font-size:0.7em; ">Alternative Convergence </span>
-    * <span style="font-size:0.7em; ">Alternative Divergence </span>
+    * <span style="font-size:0.5em; ">Alternative Convergence </span>
+    * <span style="font-size:0.5em; ">Alternative Divergence </span>
 * <span style="font-size:0.8em; ">**Paralel Sequences** </span>
-    * <span style="font-size:0.7em; ">Parallel Divergence </span>
-    * <span style="font-size:0.7em; ">Parallel Convergence </span>
+    * <span style="font-size:0.5em; ">Parallel Divergence </span>
+    * <span style="font-size:0.5em; ">Parallel Convergence </span>
 * <span style="font-size:0.8em; ">**Jump** </span>
 
 ---
