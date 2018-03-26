@@ -21,6 +21,7 @@
 ---
 
 ### Simbol Pada SFC
+<span style="font-size:0.8em; ">
 1. **Steps** 
     * Initial Step
     * Ordinary Step
@@ -32,6 +33,7 @@
     * Parallel Divergence
     * Parallel Convergence
 5. **Jump**
+</span>
 ---
 
 ### Steps
