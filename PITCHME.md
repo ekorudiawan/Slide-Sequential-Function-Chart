@@ -112,7 +112,7 @@
 ---
 
 ### SFC Diagram Control
-<span style="font-size:0.8em; ">**SFC Diagram Control** merupakan sebuah variabel yang dapat dikontrol atau diakses untuk memanipulasi eksekusi program pada SFC. </span>
+<span style="font-size:0.5em; ">**SFC Diagram Control** merupakan sebuah variabel yang dapat dikontrol atau diakses untuk memanipulasi eksekusi program pada SFC. </span>
 
 ![SFC Diagram Control](assets/image/sfc_diagram_control.png)
 ---
