@@ -98,8 +98,8 @@
 ### Actions
 ![Action](assets/image/program_action.png)
 * <span style="font-size:0.5em; ">Action Types : Bagaimana dan kapan aksi tersebut dieksekusi. </span>
-* <span style="font-size:0.5em; ">Action Control. </span>
-* <span style="font-size:0.5em; ">Indicator Variable. </span>
+* <span style="font-size:0.5em; ">Action Control : Berisi variabel yang akan dikontrol</span>
+* <span style="font-size:0.5em; ">Indicator Variable : : Indikator variabel</span>
 ---
 
 #### SFC action types
