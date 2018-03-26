@@ -4,9 +4,9 @@
 
 ### Sequential Function Chart
 * <span style="font-size:0.8em; ">SFC merupakan bahasa pemrograman yang didefinisikan pada standar IEC 61131-3.</span>
-* <span style="font-size:0.8em; ">SFC merupakan bahasa pemrograman berbasis graphic yang digunakan untuk merepresentasikan sequence/urutan proses dalam sebuah program. </span>
+* <span style="font-size:0.8em; ">SFC merupakan bahasa pemrograman berbasis graphic yang digunakan untuk merepresentasikan sequence/urutan proses. </span>
 * <span style="font-size:0.8em; ">SFC disebut juga dengan Grafcet yang mengacu pada standar French National Standar. </span>
-* <span style="font-size:0.8em; ">SFC didesain untuk membuat program terstruktur </span>
+* <span style="font-size:0.8em; ">SFC didesain untuk membuat program terstruktur. </span>
 * <span style="font-size:0.8em; ">SFC didesain untuk membuat program terstruktur terutama untuk sistem yang beroperasi secara sequential dan paralel. </span>
 ---
 
@@ -29,7 +29,7 @@
 * <span style="font-size:0.8em; ">**Alternative Branch** </span>
     * <span style="font-size:0.5em; ">Alternative Convergence </span>
     * <span style="font-size:0.5em; ">Alternative Divergence </span>
-* <span style="font-size:0.8em; ">**Paralel Branch** </span>
+* <span style="font-size:0.8em; ">**Parallel Branch** </span>
     * <span style="font-size:0.5em; ">Parallel Divergence </span>
     * <span style="font-size:0.5em; ">Parallel Convergence </span>
 * <span style="font-size:0.8em; ">**Jump** </span>
